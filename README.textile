@@ -1,0 +1,3 @@
+Presentation about CodeFumes given at Software Craftsmanship McHenry County on March 15, 2011.
+
+"http://tomkersten.github.com/presentation-codefumes_scmc/":http://tomkersten.github.com/presentation-codefumes_scmc/
