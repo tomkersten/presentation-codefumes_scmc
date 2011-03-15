@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>CodeFumes</title>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
+
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+    setupPreso(false, './');
+  });
+  </script>
+</head>
+
+<body>
+
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">&larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">z</td><td>toggle help (this)</td></tr>
+  </table>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none"><div class="content" ref="one/01_slide/1">
+<h1>codefumes</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/2">
+<h1>codefumes</h1>
+
+<h3>devs &amp; business-dudes (or ladies), hand in hand</h3></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/3">
+<h1>before we get into that...</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/4">
+<h1>who am i?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/5">
+<h1>@tomkersten</h1>
+
+<h2>tomkersten.com</h2>
+
+<h3>tom@whitespur.com</h3></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/6">
+<h1>work: GN ReSound</h1>
+
+<h2>(we make hearing aids)</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/7">
+<h1>work: GN ReSound</h1>
+
+<h2>(yes...hearing aids)</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/8">
+<h1>work: GN ReSound</h1>
+
+<h2>(and yes...it's with a capial 'S')</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/9">
+<h1>back to codefumes</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/10">
+<h1>3 components...</h1>
+
+<ul>
+<li>track anything, link events to commits</li>
+<li>graph/visualize it</li>
+<li>simple api to get at the data</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/11">
+<h1>inspiration...</h1>
+
+<ul>
+<li>identify/change bad habits</li>
+<li>simplify visualizing metrics relative to code</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/12">
+<h1>product...?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/13">
+<h1>inspiration...</h1>
+
+<ul>
+<li>identify/change bad habits</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/14">
+<h1>i hate patch bombs</h1>
+
+<h2>they break builds...</h2>
+
+<h3>and are had to debug</h3></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/15">
+<h2>track lines changed &amp; build status</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/16">
+<h1>build duration impacts quality</h1>
+
+<h2>fact or folklore?</h2>
+
+<h3>what's the breaking point?</h3></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/17">
+<h2>track builds broken &amp; duration</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/18">
+<h1>frantic development costs $$$</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/19">
+<h2>graph bugs/calls against last iteration's hours</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/20">
+<h1>developer practices save $$$</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/21">
+<ul>
+<li>show refactoring's impact build time</li>
+<li>show testing's impact on broken builds</li>
+<li>...etc</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/22">
+<h1>these just a couple ideas</h1>
+
+<h2>...everyone has their own</h2></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/23">
+<h1>inspiration...</h1>
+
+<ul>
+<li><span style="text-decoration:line-through;color:#ccc;">identify/change bad habits</span></li>
+<li>abstract the 'dashboard'</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/24">
+<h1>work history</h1>
+
+<h2>big companies, consultant, small company</h2></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/25">
+<h1>challenges</h1>
+
+<ul>
+<li>showing why you're different</li>
+<li>explaining value of 'x'</li>
+<li>status updates</li>
+<li>different build servers</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/26">
+<h1>idea...</h1>
+
+<ul>
+<li>project-dashboard for devs</li>
+<li>dashboard across projects</li>
+<li>unify the api of build servers</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/27">
+<h1>lights, screens, arduinos</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/28">
+<h1>fields of grass, sunny skies</h1>
+
+<h3>devs &amp; business-dudes (or ladies), walking hand in hand</h3></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/29">
+<h1>demo</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/30">
+<h1>timeline</h1>
+
+<h2>lots of development in 2009</h2>
+
+<h2>some in 2010, tapering to none at this point</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/31">
+<h1>where is it at today?</h1>
+
+<h2>open sourced, little/no development today</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/01_slide/32">
+<h2>site: <a href="https://github.com/tomkersten/codefumes-site">https://github.com/tomkersten/codefumes-site</a></h2>
+
+<h2>gem: <a href="https://github.com/tomkersten/codefumes">https://github.com/tomkersten/codefumes</a></h2></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/33">
+<h1>questions?</h1></div>
+</div>
+</div>
+
+</body>
+</html>
