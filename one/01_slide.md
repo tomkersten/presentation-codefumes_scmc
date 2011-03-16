@@ -1,5 +1,6 @@
 !SLIDE
 # codefumes #
+### "http://tomkersten.github.com/presentation-codefumes_scmc/":http://tomkersten.github.com/presentation-codefumes_scmc/
 
 !SLIDE
 # codefumes #
